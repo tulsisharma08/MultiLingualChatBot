@@ -23,7 +23,7 @@ def recordAudio():
     return data
 translator = Translator()   #object of translator class 
 s=recordAudio()#ohayo gozaimas,goten morgen,watashi wa tulsi desu
-openai.api_key="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"
+openai.api_key="sk-Use your api key"
 eng=pyttsx3.init()#engine setup for text to speech
 rate=eng.getProperty('rate')
 voices=eng.getProperty("voices")
